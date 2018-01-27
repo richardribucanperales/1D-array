@@ -4,12 +4,20 @@ You must give a short explanation for each answer.
 
 1) Create a reference to an array of integers named "cat".
 
+-------------------
+var cat = [
+"catnip",
+"litterbox"
+]
+-------------------
 2) What is the output of the following code fragment?
 
 var cat = [2, 4, 6, 8];
 
 console.log(cat[0] + " " + cat[1]);
-
+-------------------
+2 4
+-------------------
 3) What is the output of the following code fragment?
 
 var y = [ , , , , , , , , , ];
@@ -18,15 +26,23 @@ y[0] = 34;
 y[1] = 88;
 
 console.log(y[0] + " " + y[1] + " " + y[5]);
-
+-------------------
+34 88  undefined
+-------------------
 4) What is the output of the following code fragment?
 
 var zip = [7, 3, 4, 1, 9];
 
 console.log(zip[2+1]);
-
+-------------------
+7
+-------------------
 5) What is the output of the following code fragment?
 
 var x = [7, 3, 4, , , , , , ];
 
 console.log((x[0] + x[1]) + " " + x[5]);
+            ^ is that supposed to be there?
+-------------------
+10  undefined
+-------------------
